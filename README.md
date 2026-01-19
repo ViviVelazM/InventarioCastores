@@ -5,7 +5,7 @@
 - DBMS utilizado: MySQL 8.0.44
 - Servidor web: TomCat 10.1.50
 
-Dependencias:
+Dependencias:/n
 El proyecto cuenta con el uso de las librerías: *Esto en caso de que al importar el proyecto no sean detectadas por cualquier inconveniente*
 - LIBS/jakarta.servlet.jsp.jstl-3.0.1.jar
 - LIBS/jakarta.servlet.jsp.jstl-api-3.0.0.jar

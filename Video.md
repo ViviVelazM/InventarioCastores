@@ -1,7 +1,1 @@
 https://drive.google.com/file/d/1pGAOAPg-LUeEaSGZkwBkN1OHH_2lT1Ps/view?usp=drive_link
-
-Java 21.0.9
-JDK 21.0.9
-MySQL 8.0.44
-TomCat 10.1.50
-

@@ -1,0 +1,156 @@
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    background: #f4f6f9;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.formularios {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.tarj {
+    background: #ffffff;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+form h2 {
+    margin-bottom: 15px;
+}
+
+form p {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 8px 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+#error{
+    color:red; 
+    border:1px solid red; 
+    padding:10px; 
+    margin-bottom:10px;
+}
+
+button,
+.btn {
+    display: inline-block;
+    padding: 8px 14px;
+    background-color: #5377a6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.95rem;
+    text-decoration: none;
+}
+
+button:hover,
+.btn:hover {
+    background-color: #3e5f8a;
+    transform: translateY(-2px);
+}
+
+.btn-editar {
+    background-color: #6c757d;
+}
+
+.btn-editar:hover {
+    background-color: #545b62;
+}
+
+.btn-desactiva {
+    background-color: #dc3545;
+}
+
+.btn-desactiva:hover {
+    background-color: #b52a37;
+}
+
+.btn-activa {
+    background-color: #28a745;
+}
+
+.btn-activa:hover {
+    background-color: #1e7e34;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+thead {
+    background-color: #5377a6;
+    color: white;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+    background-color: #e9eef6;
+}
+
+.actions {
+    margin-bottom: 20px;
+}
+
+.actions a,
+.actions button {
+    margin-right: 10px;
+}
+
+.filtros {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.filtros label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.filtros input[type="radio"] {
+    color: #5377a6;
+}

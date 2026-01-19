@@ -1,9 +1,9 @@
 # InventarioCastores
 
-IDE utilizado: NetBeans v27
-Lenguaje utilizado: Java 21.0.9
-DBMS utilizado: MySQL 8.0.44
-Servidor web: TomCat 10.1.50
+- IDE utilizado: NetBeans v27
+- Lenguaje utilizado: Java 21.0.9
+- DBMS utilizado: MySQL 8.0.44
+- Servidor web: TomCat 10.1.50
 
 Dependencias:
 El proyecto cuenta con el uso de las librerías: *Esto en caso de que al importar el proyecto no sean detectadas por cualquier inconveniente*
